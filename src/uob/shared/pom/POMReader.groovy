@@ -1,4 +1,5 @@
 package uob.shared.pom
+//comment
 
 class POMReader implements Serializable {
 
