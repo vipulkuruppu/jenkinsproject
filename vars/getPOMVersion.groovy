@@ -7,7 +7,6 @@ def call(body) {
     body()
 
     def version = sh( script: 'date +%d%m%Y.%H%M%S', returnStdout: true).toString().trim()
-    echo 'Using new version ' +  pomConfig.pomfile + ' ' + pomConfig.pompath + ' ' + version
+    echo 'Using new version ' +  pomConfig.branchtype + ' ' + pomConfig.pomfile + ' ' + version
     return version
-
 }
