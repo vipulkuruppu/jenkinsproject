@@ -8,4 +8,4 @@ def readVersion(String branchType, String pomFile){
     return version
 }
 
-return this
+//return this
