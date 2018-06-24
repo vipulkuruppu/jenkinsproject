@@ -8,5 +8,5 @@ class POMReader implements Serializable {
         echo 'Using version ' +  pomConfig.branchtype + ' ' + pomConfig.pomfile + ' ' + version
         return version
     }
-    return this
+
 }
