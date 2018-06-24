@@ -6,3 +6,5 @@ def readVersion(String branchType, String pomFile){
     println 'Using version ' +  branchType + ' ' + pomFile + ' ' + version
     return version
 }
+
+return this
