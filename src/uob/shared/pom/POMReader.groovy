@@ -5,7 +5,7 @@ class POMReader implements Serializable {
     static def readVersion(String branchType, String pomFile){
 
         //String version = sh( script: 'date +%d%m%Y.%H%M%S', returnStdout: true).toString().trim()
-        echo 'Using version ' +  branchType + ' ' + pomFile + ' ' + version
+        //echo 'Using version ' +  branchType + ' ' + pomFile + ' ' + version
         return "10000"
     }
 
