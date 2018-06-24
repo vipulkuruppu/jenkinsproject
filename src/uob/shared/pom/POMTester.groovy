@@ -7,5 +7,3 @@ def readVersion(String branchType, String pomFile){
     sh "pwd"
     return version
 }
-
-//return this
