@@ -9,5 +9,4 @@ class POMReader implements Serializable {
         println 'Using version ' +  branchType + ' ' + pomFile + ' ' + version
         return version
     }
-
 }
