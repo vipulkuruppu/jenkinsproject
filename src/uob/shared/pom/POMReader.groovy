@@ -8,4 +8,5 @@ package uob.shared.pom
         echo 'Using version ' +  pomConfig.branchtype + ' ' + pomConfig.pomfile + ' ' + version
         return version
     }
+    return this
 //}
