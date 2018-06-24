@@ -6,7 +6,7 @@ class POMReader implements Serializable {
 
         //String version = sh( script: 'date +%d%m%Y.%H%M%S', returnStdout: true).toString().trim()
         //echo 'Using version ' +  branchType + ' ' + pomFile + ' ' + version
-        tring version = 'date +%d%m%Y.%H%M%S'.execute().text
+        String version = 'date +%d%m%Y.%H%M%S'.execute().text
         return version
     }
 
