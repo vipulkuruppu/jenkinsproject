@@ -6,3 +6,8 @@ def hello(message) {
 def bye(message) {
     echo "Bye " + message + "..."
 }
+
+def hellofromsh(message){
+    def shell_script = libraryResource 'shell/hello.sh'
+    sh "${shell_script} ${message}"
+}
