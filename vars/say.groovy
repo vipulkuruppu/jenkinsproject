@@ -9,5 +9,5 @@ def bye(message) {
 
 def hellofromsh(message){
     def shell_script = libraryResource 'shell/hello.sh'
-    sh "${shell_script}"
+    sh "${shell_script} xxxxxx"
 }
